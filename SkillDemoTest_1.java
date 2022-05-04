@@ -10,6 +10,6 @@ public class SkillDemoTest_1{
     @Test
     public void average(){
         int[] array = {10, 12, 14, 12};
-        assertEquals(10, SkillDemo_1.average(array)); // inital test that fails
+        assertEquals(12, SkillDemo_1.average(array)); // test that passes
     }
 }
